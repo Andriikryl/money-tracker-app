@@ -4,8 +4,12 @@ body{
 }
 
 main{
-  max-width: 360px;
+  max-width: 600px;
   margin: 50px auto;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 40px;
+  border-radius: 20px;
 }
 
 h1{
@@ -70,6 +74,13 @@ div.transaction div.description {
   color: aliceblue;
 }
 
+div.right {
+  text-align: right;
+}
 
+div.price {
+  font-size: 1.5rem;
+  color: #8338ec;
+}
 
 
